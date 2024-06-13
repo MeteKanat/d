@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>İletişim</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>
+    .header {
+      background-color: #f0f0f0; /* Hafif gri arka plan */
+      padding: 20px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .button {
+      padding: 10px 20px;
+      margin: 10px;
+      border: 2px solid #ccc; /* Gri çerçeve */
+      border-radius: 5px;
+      text-decoration: none;
+      color: #000; /* Siyah metin */
+      font-weight: bold;
+      background-color: #f0f0f0; /* Arka plan rengi */
+    }
+    .profile-description {
+      font-family: 'WixUI-RichText', 'Helvetica Neue', Helvetica, Arial, sans-serif; /* WixUI zengin metin fontu */
+      text-align: center; /* Metni ortala */
+    }
+    .contact-info {
+      margin-top: 20px;
+    }
+    .contact-info i {
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <h2>İletişim</h2>
+  <div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Menü
+    </button>
+    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+      <a class="dropdown-item" href="index.html">Ana Sayfa</a>
+      <a class="dropdown-item" href="hakkımda.html">Hakkımda</a>
+    </div>
+  </div>
+</div>
+
+<div class="profile-description">
+  <p class="wixui-rich-text__text">İletişim için aşağıdaki bilgileri kullanabilirsiniz:</p>
+  <ul class="contact-info">
+    <i class="fas fa-envelope"></i> E-posta: duyguefe919@gmail.com<br>
+    <i class="fas fa-phone"></i> Telefon: 0542 731 4268<br>
+    <i class="fas fa-map-marker-alt"></i> Adres: Işıklar Mahallesi Hicaz Sokak No:5 Selçuklu/Konya
+  </ul>
+</div>
+
+<!-- Bootstrap JS ve jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
